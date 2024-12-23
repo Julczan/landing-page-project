@@ -14,10 +14,42 @@ body {
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 150px;
 }
 
 .logo {
   font-weight: bold;
-  font-size: 23px;
+  font-size: 18px;
+}
+
+.header-section {
+  max-width: 300px;
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.sign-up {
+  padding: 5px 20px;
+  background-color: rgba(0, 0, 173, 0.76);
+  color: white;
+}
+
+.subtext {
+  max-width: 400px;
+  color: white;
+}
+
+img {
+  max-width: 350px;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(229, 100%, 11%, 0.733);
+  padding: 0 150px;
+  height: 25vh;
 }
