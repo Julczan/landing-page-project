@@ -87,7 +87,7 @@ img {
   align-items: center;
 }
 
-span {
+.span-1 {
   display: block;
   max-width: 150px;
 }
@@ -98,4 +98,25 @@ span {
   font-weight: 900;
   text-align: center;
   padding-top: 20px;
+}
+
+.section-3-quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: left;
+}
+
+.section-3 {
+  height: 30vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 150px;
+  justify-content: center;
+}
+
+.span-2 {
+  font-weight: bold;
+  text-align: end;
 }
