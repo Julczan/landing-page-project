@@ -150,3 +150,12 @@ img {
   border-radius: 5px;
   border: 2px solid white;
 }
+
+.footer {
+  display: flex;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+}
